@@ -1,13 +1,18 @@
+import { ReactElement } from 'react'
 import './style.scss'
 
+interface ButtonProps {
+  label:string,
+  className:string,
+  icon?:ReactElement,
+}
 
-
-const Button = ({label,className}:{label:string,className:string}) => {
+const Button = ({label,className,icon}:ButtonProps) => {
 
 
   return (
     <button className={`btn ${className}`}>
-      {label}
+      {label}{icon}
     </button>
   )
 }

@@ -3,6 +3,8 @@ import './style.scss'
 import { RiHome2Line } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
 import { BsWindow } from "react-icons/bs";
+import { TbSend } from "react-icons/tb";
+
 import Button from "../Button/Button";
 const NavBar = () => {
   return (
@@ -13,7 +15,7 @@ const NavBar = () => {
         <NavLink to="/mahimohammed/works" className='link'><BsWindow className="icon-link"/></NavLink>
       </div>
       <Link to='/mahimohammed/contact' className="link">
-        <Button label="Hire me" className="btn-contained"/>
+        <Button label="Hire me" className="btn-contained" icon={<TbSend/>}/>
       </Link>
     </div>
   )

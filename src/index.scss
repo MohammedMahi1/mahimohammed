@@ -44,17 +44,8 @@ body{
 .typographie{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   h1{
     font-size: 70px;
-  }
-  h2{
-    background-color: #fff;
-    color: #1e1e1e;
-    padding: 5px;
-    text-align: center;
-    border-radius: 50px;
-    font-size: 20px;
   }
 }
 .page-container{
@@ -73,41 +64,49 @@ height: auto;
   flex-direction: column;
   gap: 20px;
 }
+.description{
+  font-size: 20px;
+  line-height: 40px;
+}
 @media only screen and (max-width:1280px) {
   .container{
     padding: 20px 250px;
   }
 }
+
+
+
 @media only screen and (max-width:900px) {
   .container{
     padding: 20px;
   }
 }
+
+
+
+
 @media only screen and (max-width:430px) {
   .img-dashboard{
     display: none;
   }
   .page-container{
     flex-direction: column;
+    padding: 20px;
     gap: 20px;
   }
   .typographie{
     h1{
       font-size: 14vw;
     }
-    h2{
-      background-color: #fff;
-      color: #1e1e1e;
-      padding: 5px;
-      text-align: center;
-      border-radius: 50px;
-      font-size: 20px;
-    }
+  }
+  .description{
+    font-size: 20px;
+    line-height: 30px;
   }
   .group-btn{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 }
