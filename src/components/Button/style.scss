@@ -1,0 +1,27 @@
+.btn {
+    padding: 10px 20px;
+    border: none;
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    text-wrap: nowrap;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 5px #80808057;
+}
+
+.btn-outlined {
+    background-color: transparent;
+    color: #fff;
+    outline: 2px #fff solid;
+}
+
+.btn-contained {
+    background-color: #fff;
+    color: #1e1e1e;
+}

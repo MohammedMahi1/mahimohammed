@@ -1,0 +1,19 @@
+.navbar{
+    padding: 0px 20px;
+    background-color: #2d2d2d;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.icon-link{
+    font-size: 23px;
+}

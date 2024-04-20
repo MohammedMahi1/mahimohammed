@@ -1,0 +1,17 @@
+.tooltip{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 15px;
+    background-color: #3aab4b72;
+    color: #38e852;
+    border-radius: 50px;
+    width: fit-content;
+}
+.circle-tool{
+    width:10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #38e852;
+}
