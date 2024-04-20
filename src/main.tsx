@@ -11,23 +11,23 @@ import Contact from './pages/Contact.tsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/mahimohammed/",
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: "/mahimohammed/",
         element: <Dashboard />
       },
       {
-        path: "/about",
+        path: "/mahimohammed/about",
         element: <About />
       },
       {
-        path: "/works",
+        path: "/mahimohammed/works",
         element: <Works />
       },
       {
-        path: "/contact",
+        path: "/mahimohammed/contact",
         element: <Contact />
       },
     ]
