@@ -8,11 +8,11 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <div className="group-links">
-        <NavLink to="/mahimohammed/" className='link'><RiHome2Line className="icon-link"/></NavLink>
-        <NavLink to="/mahimohammed/about" className='link'><CgProfile className="icon-link"/></NavLink>
-        <NavLink to="/mahimohammed/works" className='link'><BsWindow className="icon-link"/></NavLink>
+        <NavLink to="/" className='link'><RiHome2Line className="icon-link"/></NavLink>
+        <NavLink to="/about" className='link'><CgProfile className="icon-link"/></NavLink>
+        <NavLink to="/works" className='link'><BsWindow className="icon-link"/></NavLink>
       </div>
-      <Link to='/mahimohammed/contact' className="link">
+      <Link to='/contact' className="link">
         <Button label="Hire me" className="btn-contained"/>
       </Link>
     </div>
