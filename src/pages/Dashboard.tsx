@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const Dashboard = () => {
   return (
 
-    <div className="page-container dashboard">
+    <div className="page-container main-page">
       <div className='typographie'>
         <h1>Hello !</h1>
         <h1>I'm</h1>
