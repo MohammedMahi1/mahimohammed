@@ -23,7 +23,7 @@ const Contact = () => {
       .sendForm('service_9qh0meh', 'template_rr115td', currentForm, {
         publicKey: 'muCl8D333I8eTAZ1L',
       })
-      .then((e) => {
+      .then(() => {
           enqueueSnackbar("Message send successfully",{style: {
             backgroundColor:"#14A44D",
                 color:"#ffffff",
