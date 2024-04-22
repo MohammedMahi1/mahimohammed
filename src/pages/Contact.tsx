@@ -17,9 +17,10 @@ const Contact = () => {
   }, [])
   const sendEmail = (e:React.FormEvent) => {
     e.preventDefault();
-
+    const currentForm = form.current;
+    if (currentForm == null) return;
     emailjs
-      .sendForm('service_9qh0meh', 'template_rr115td', form.current, {
+      .sendForm('service_9qh0meh', 'template_rr115td', currentForm, {
         publicKey: 'muCl8D333I8eTAZ1L',
       })
       .then((e) => {
