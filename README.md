@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Mohammed Mahi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my Portfolio
 
-Currently, two official plugins are available:
+# Demo link:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can check it : [https://mohammedmahi1.github.io/mohammedmahi/](https://mohammedmahi1.github.io/mohammedmahi/)
 
-## Expanding the ESLint configuration
+#Table of Content:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- About The App
+- Technologies
+- Setup
+- Status
+- Credits
 
-- Configure the top-level `parserOptions` property like this:
+# About The portfolio
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+welcome to my portfolio i made it for presenting me to the world of web development, i hope you enjoy it
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Technologies
+
+I use the most popular technologies in front-end development, `React js`, but with `Vite`, I use `Html`, `Css`, `Js`, and also `Typescript`.
+
+# Setup
+
+If you wanna have a full view of my app follow this setups
+
+1. `download` the file from this repositorie
+2. `open` the folder in editor like `VS Code` or `WebStorm`
+3. `run` in terminal `npm install`
+4. `run` in terminal `npm run dev`
+
+# Status
+
+Portfolio project is still in progress. mobile version will be out soon.
+
+# Credits
+
+Contriubutor:
+
+- [Mohammed Mahi](https://github.com/MohammedMahi1)
